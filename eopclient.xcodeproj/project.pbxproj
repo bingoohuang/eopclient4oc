@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1397B16F16AD3D2D0004FB94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1397B16E16AD3D2D0004FB94 /* UIKit.framework */; };
+		1397B17116AD3D2D0004FB94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1397B17016AD3D2D0004FB94 /* Foundation.framework */; };
+		1397B17316AD3D2D0004FB94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1397B17216AD3D2D0004FB94 /* CoreGraphics.framework */; };
+		1397B17916AD3D2D0004FB94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1397B17716AD3D2D0004FB94 /* InfoPlist.strings */; };
+		1397B17B16AD3D2D0004FB94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1397B17A16AD3D2D0004FB94 /* main.m */; };
+		1397B17F16AD3D2D0004FB94 /* EopAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1397B17E16AD3D2D0004FB94 /* EopAppDelegate.m */; };
+		1397B18116AD3D2D0004FB94 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1397B18016AD3D2D0004FB94 /* Default.png */; };
+		1397B18316AD3D2D0004FB94 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1397B18216AD3D2D0004FB94 /* Default@2x.png */; };
+		1397B18516AD3D2D0004FB94 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1397B18416AD3D2D0004FB94 /* Default-568h@2x.png */; };
+		1397B18816AD3D2D0004FB94 /* EopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1397B18716AD3D2D0004FB94 /* EopViewController.m */; };
+		1397B18B16AD3D2D0004FB94 /* EopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1397B18916AD3D2D0004FB94 /* EopViewController.xib */; };
+		1397B19316AD400F0004FB94 /* EopClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1397B19216AD400F0004FB94 /* EopClient.m */; };
+		13E2CD6C16AE29A0009C7FB6 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E2CD6A16AE29A0009C7FB6 /* GTMBase64.m */; };
+		13E2CD7016AE31E3009C7FB6 /* EopResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E2CD6F16AE31E3009C7FB6 /* EopResponse.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1397B16A16AD3D2D0004FB94 /* eopclient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eopclient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1397B16E16AD3D2D0004FB94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1397B17016AD3D2D0004FB94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1397B17216AD3D2D0004FB94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1397B17616AD3D2D0004FB94 /* eopclient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "eopclient-Info.plist"; sourceTree = "<group>"; };
+		1397B17816AD3D2D0004FB94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1397B17A16AD3D2D0004FB94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1397B17C16AD3D2D0004FB94 /* eopclient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eopclient-Prefix.pch"; sourceTree = "<group>"; };
+		1397B17D16AD3D2D0004FB94 /* EopAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EopAppDelegate.h; sourceTree = "<group>"; };
+		1397B17E16AD3D2D0004FB94 /* EopAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EopAppDelegate.m; sourceTree = "<group>"; };
+		1397B18016AD3D2D0004FB94 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1397B18216AD3D2D0004FB94 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1397B18416AD3D2D0004FB94 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1397B18616AD3D2D0004FB94 /* EopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EopViewController.h; sourceTree = "<group>"; };
+		1397B18716AD3D2D0004FB94 /* EopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EopViewController.m; sourceTree = "<group>"; };
+		1397B18A16AD3D2D0004FB94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EopViewController.xib; sourceTree = "<group>"; };
+		1397B19116AD400F0004FB94 /* EopClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EopClient.h; sourceTree = "<group>"; };
+		1397B19216AD400F0004FB94 /* EopClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EopClient.m; sourceTree = "<group>"; };
+		13E2CD6916AE29A0009C7FB6 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		13E2CD6A16AE29A0009C7FB6 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		13E2CD6B16AE29A0009C7FB6 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		13E2CD6E16AE31E3009C7FB6 /* EopResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EopResponse.h; sourceTree = "<group>"; };
+		13E2CD6F16AE31E3009C7FB6 /* EopResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EopResponse.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1397B16716AD3D2D0004FB94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1397B16F16AD3D2D0004FB94 /* UIKit.framework in Frameworks */,
+				1397B17116AD3D2D0004FB94 /* Foundation.framework in Frameworks */,
+				1397B17316AD3D2D0004FB94 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1397B15F16AD3D2D0004FB94 = {
+			isa = PBXGroup;
+			children = (
+				1397B17416AD3D2D0004FB94 /* eopclient */,
+				1397B16D16AD3D2D0004FB94 /* Frameworks */,
+				1397B16B16AD3D2D0004FB94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1397B16B16AD3D2D0004FB94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1397B16A16AD3D2D0004FB94 /* eopclient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1397B16D16AD3D2D0004FB94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1397B16E16AD3D2D0004FB94 /* UIKit.framework */,
+				1397B17016AD3D2D0004FB94 /* Foundation.framework */,
+				1397B17216AD3D2D0004FB94 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1397B17416AD3D2D0004FB94 /* eopclient */ = {
+			isa = PBXGroup;
+			children = (
+				13E2CD6E16AE31E3009C7FB6 /* EopResponse.h */,
+				13E2CD6F16AE31E3009C7FB6 /* EopResponse.m */,
+				13E2CD6916AE29A0009C7FB6 /* GTMBase64.h */,
+				13E2CD6A16AE29A0009C7FB6 /* GTMBase64.m */,
+				13E2CD6B16AE29A0009C7FB6 /* GTMDefines.h */,
+				1397B17D16AD3D2D0004FB94 /* EopAppDelegate.h */,
+				1397B17E16AD3D2D0004FB94 /* EopAppDelegate.m */,
+				1397B18616AD3D2D0004FB94 /* EopViewController.h */,
+				1397B18716AD3D2D0004FB94 /* EopViewController.m */,
+				1397B18916AD3D2D0004FB94 /* EopViewController.xib */,
+				1397B17516AD3D2D0004FB94 /* Supporting Files */,
+				1397B19116AD400F0004FB94 /* EopClient.h */,
+				1397B19216AD400F0004FB94 /* EopClient.m */,
+			);
+			path = eopclient;
+			sourceTree = "<group>";
+		};
+		1397B17516AD3D2D0004FB94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1397B17616AD3D2D0004FB94 /* eopclient-Info.plist */,
+				1397B17716AD3D2D0004FB94 /* InfoPlist.strings */,
+				1397B17A16AD3D2D0004FB94 /* main.m */,
+				1397B17C16AD3D2D0004FB94 /* eopclient-Prefix.pch */,
+				1397B18016AD3D2D0004FB94 /* Default.png */,
+				1397B18216AD3D2D0004FB94 /* Default@2x.png */,
+				1397B18416AD3D2D0004FB94 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1397B16916AD3D2D0004FB94 /* eopclient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1397B18E16AD3D2D0004FB94 /* Build configuration list for PBXNativeTarget "eopclient" */;
+			buildPhases = (
+				1397B16616AD3D2D0004FB94 /* Sources */,
+				1397B16716AD3D2D0004FB94 /* Frameworks */,
+				1397B16816AD3D2D0004FB94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eopclient;
+			productName = eopclient;
+			productReference = 1397B16A16AD3D2D0004FB94 /* eopclient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1397B16116AD3D2D0004FB94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Eop;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = bingoohuang;
+			};
+			buildConfigurationList = 1397B16416AD3D2D0004FB94 /* Build configuration list for PBXProject "eopclient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1397B15F16AD3D2D0004FB94;
+			productRefGroup = 1397B16B16AD3D2D0004FB94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1397B16916AD3D2D0004FB94 /* eopclient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1397B16816AD3D2D0004FB94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1397B17916AD3D2D0004FB94 /* InfoPlist.strings in Resources */,
+				1397B18116AD3D2D0004FB94 /* Default.png in Resources */,
+				1397B18316AD3D2D0004FB94 /* Default@2x.png in Resources */,
+				1397B18516AD3D2D0004FB94 /* Default-568h@2x.png in Resources */,
+				1397B18B16AD3D2D0004FB94 /* EopViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1397B16616AD3D2D0004FB94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1397B17B16AD3D2D0004FB94 /* main.m in Sources */,
+				1397B17F16AD3D2D0004FB94 /* EopAppDelegate.m in Sources */,
+				1397B18816AD3D2D0004FB94 /* EopViewController.m in Sources */,
+				1397B19316AD400F0004FB94 /* EopClient.m in Sources */,
+				13E2CD6C16AE29A0009C7FB6 /* GTMBase64.m in Sources */,
+				13E2CD7016AE31E3009C7FB6 /* EopResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1397B17716AD3D2D0004FB94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1397B17816AD3D2D0004FB94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1397B18916AD3D2D0004FB94 /* EopViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1397B18A16AD3D2D0004FB94 /* en */,
+			);
+			name = EopViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1397B18C16AD3D2D0004FB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1397B18D16AD3D2D0004FB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1397B18F16AD3D2D0004FB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eopclient/eopclient-Prefix.pch";
+				INFOPLIST_FILE = "eopclient/eopclient-Info.plist";
+				PRODUCT_NAME = eopclient;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1397B19016AD3D2D0004FB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eopclient/eopclient-Prefix.pch";
+				INFOPLIST_FILE = "eopclient/eopclient-Info.plist";
+				PRODUCT_NAME = eopclient;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1397B16416AD3D2D0004FB94 /* Build configuration list for PBXProject "eopclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1397B18C16AD3D2D0004FB94 /* Debug */,
+				1397B18D16AD3D2D0004FB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1397B18E16AD3D2D0004FB94 /* Build configuration list for PBXNativeTarget "eopclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1397B18F16AD3D2D0004FB94 /* Debug */,
+				1397B19016AD3D2D0004FB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1397B16116AD3D2D0004FB94 /* Project object */;
+}
